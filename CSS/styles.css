@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Walter Turncoat";
+}
+h2{
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.seccion{
+    margin: 15px 15px 15px 15px;
+    background: linear-gradient(90deg, #446488,#3b60ab,#5f52c2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(3, 14, 73);
+    color: white;
+    max-width: 300px;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(44, 119,0);
+    max-width: 90%;
+}
+
+.activarModal{
+    display: block;
+}
+
+.cerrar{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+.btnVerificar{
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+}
+.respuesta{
+    padding: 5px;
+    border-radius: 5px;
+}
