@@ -45,7 +45,7 @@ multiply.addEventListener("click", function(){
 });
 
 btnRPS.addEventListener("click", function(){
-    abrirModal("Ingrese una palabra", "El programa contara la cantidad de letras que tiene su palabra o frase", RPS);
+    abrirModal("Piedra, papel o tijeras", "Selecciona si, si deseas iniciar el juego, elije, piedra, papel o tijeras", RPS);
 });
 
 function abrirModal(titulo, descripcion, funcionEjercicio){
