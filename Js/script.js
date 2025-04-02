@@ -41,7 +41,7 @@ contLetras.addEventListener("click", function(){
 });
 
 multiply.addEventListener("click", function(){
-    abrirModal("Ingrese una palabra", "El programa contara la cantidad de letras que tiene su palabra o frase", Multiply);
+    abrirModal("Tablas de multiplicar", "El programa te brindara una ventana donde te mostrara las tablas de ese numero", Multiply);
 });
 
 btnRPS.addEventListener("click", function(){
